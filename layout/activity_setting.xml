@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#70C3FC"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".SettingActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:text="Settings"
+        android:textColor="#333"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:paddingBottom="8dp"
+        android:text="Monthly Budget"
+        android:textColor="#666"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editTextMonthlyBudget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="#FFF"
+        android:hint="Enter your monthly budget"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:textColor="#333"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/saveButtonSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#4CAF50"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:text="Save"
+        android:textColor="#FFF"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/exportDataButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:text="Export Data"
+        android:textColor="#FFF"
+        android:textSize="16sp" />
+
+
+    <Button
+        android:id="@+id/setReminderButton"
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="200dp"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:text="Set Daily Reminder"
+        android:textColor="#FFF"
+        android:textSize="16sp" />
+
+</LinearLayout>

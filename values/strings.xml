@@ -1,0 +1,6 @@
+
+    <resources>
+        <string name="app_name">SaveBuddy</string>
+        <string name="budget_reminder_channel_id">budget_reminder_channel</string>
+        <string name="daily_reminder_channel_id">daily_reminder_channel</string>
+    </resources>
